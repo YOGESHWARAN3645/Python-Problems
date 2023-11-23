@@ -14,5 +14,13 @@ cs=int(input("cs:"))
 
 percentage= (tamil+english+maths+science+cs)/5
 
-if(
-  
+if(percentage>=60):
+   print("First division")
+elif(percentage>=50 and percentage <=59):
+   print("Second division")
+elif(percentage>=40 and percentage <=49):
+   print("Third division")
+elif((percentage<40):
+   print("Fail")
+
+
